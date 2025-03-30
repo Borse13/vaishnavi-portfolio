@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link href="portfolio.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="navbar">
+      <button class="navbtn" id="home">Home</button>
+      <button class="navbtn" id="about">About Me</button>
+      <button class="navbtn" id="Projects">Projects</button>
+      <button class="navbtn" id="Contact">Contact</button>
+      <!-- <input type="search" placeholder=" Search Here..." id="search" /> -->
+    </div>
+    <div>
+      <video id="blackh" src="./img/blackhole.webm"></video>
+    </div>
+
+    <div class="container active containerbox" id="homeinfo">
+      <div class="column info">
+        <span class="span1">Hello I'am <span id="profession"></span></span>
+      </div>
+      <div id="lottie-container column">
+        <dotlottie-player
+          src="./img/loti.lottie"
+          background="transparent"
+          speed="1"
+          loop
+          autoplay
+        >
+        </dotlottie-player>
+      </div>
+    </div>
+
+    <div class="container2 active containerbox" id="about">
+      <div class="aboutimg"><img src="img/img2.png " id="myimg" /></div>
+      <div class="aboutinfo">
+        Hi, I'm Vaishnavi Borse, a passionate Web Developer and UI/UX Designer
+        with a strong foundation in Artificial Intelligence and Machine
+        Learning. Currently pursuing my degree in AI & ML, I thrive at the
+        intersection of technology and design, creating user-friendly, visually
+        appealing, and efficient web experiences. With two completed
+        internships, I have gained hands-on experience in frontend and backend
+        development, leveraging modern web technologies to build scalable and
+        interactive applications. My expertise in UI/UX design allows me to
+        craft seamless user experiences that not only look great but also
+        enhance usability. I'm always eager to learn, explore new technologies,
+        and contribute to innovative projects. Let’s connect and build something
+        amazing together!
+      </div>
+    </div>
+    <div class="conatiner3 active containerbox" id="project">
+      <div class="row">
+        <h1 class="title">
+          BANK MANAGEMENT SYSTEM<span
+            ><img src="img/bank.png" id="bicon"
+          /></span>
+        </h1>
+        HI developed a Bank Management System using HTML, CSS, and PHP to
+        streamline banking operations. This system allows users to create
+        accounts, manage transactions, and track their financial activities
+        securely. With a user-friendly interface and authentication mechanisms,
+        it ensures safe and efficient banking transactions while maintaining a
+        well-structured database for account management.
+      </div>
+      <div class="row">
+        <h1 class="title">
+          TASK MANAGEMENT SYSTEM<span
+            ><img src="img/task.png" id="ticon"
+          /></span>
+        </h1>
+        To enhance productivity and task organization, I built a Task Management
+        System using .NET, JavaScript, HTML, and CSS. This system enables users
+        to create, assign, and track tasks seamlessly. It includes features such
+        as deadline reminders, role-based access control, and progress tracking,
+        making it an ideal solution for efficient project and team management.
+      </div>
+      <div class="row">
+        <h1 class="title">
+          E-VOTING SYSTEM<span><img src="img/e-vote.png" id="icon" /></span>
+        </h1>
+        Security and transparency are crucial in elections, which led me to
+        develop an E-Voting System using Blockchain (Solidity) and Python. This
+        decentralized system ensures tamper-proof voting by leveraging smart
+        contracts for authentication and vote validation. With blockchain
+        technology, it enhances trust and integrity in the voting process,
+        providing a secure and transparent election system.
+      </div>
+    </div>
+
+    <div class="conttitle"><h1>CONTACT ME</h1></div>
+
+    <div class="container4 active containerbox" id="cont">
+      <div class="contact">
+        <span class="ct">CONTACT ME :</span>
+        <h1>9307953744</h1>
+        <br />
+        <span class="ct">Gmail :</span>
+        <a href="borsevr13@gmail.com"><h1>borsevr13@gmail.com</h1></a>
+        <br />
+        <span class="ct">Linkdin Profile :</span>
+        <a href="https://www.linkedin.com/in/vaishnavi-borse-a57768267/"
+          ><h1>https://www.linkedin.com/in/vaishnavi-borse</h1></a
+        >
+      </div>
+      <div class="cimg"><img src="img/contact.png" /></div>
+    </div>
+  </body>
+  <script src="portfolio.js"></script>
+  <script
+    src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+    type="module"
+  ></script>
+</html>
